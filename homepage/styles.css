@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #EFE6DD;
+  }
+  
+  h1 {
+    position: fixed;
+    font-size: 100px;
+    font-style: normal;
+    font-family: sans-serif;
+    color: #080357;
+    text-align: left
+    margin-left: 70px;
+    bottom: 465px;
+    margin-top: 480px;
+    line-height: 2cm;
+  }
+  
+  h2 {
+    color: #080357;
+    font-family: "quasimoda", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    position: fixed;
+    margin-left: 72px;
+    bottom: 460px;
+  }
+  
