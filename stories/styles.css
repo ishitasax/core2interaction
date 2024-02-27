@@ -1,0 +1,187 @@
+:root {
+  --width: 100px;
+  --backround: linear-gradient(to right, #141e30, #243b55);/*linear-gradient(to right, #485563, #29323c); /*linear-gradient(to right, #6441a5, #2a0845);/*linear-gradient(to right, #136a8a, #267871);/*linear-gradient(to right, #ddd6f3, #faaca8);/*linear-gradient(to right, #2b5876, #4e4376);/**/
+  
+  --meta-colour: linear-gradient(to right, #6190e8, #a7bfe8);/*linear-gradient(to right, #4ac29a, #bdfff3);/* linear-gradient(to right, #fe8c00, #f83600);/*linear-gradient(to right, #83a4d4, #b6fbff);/*linear-gradient(to right, #43cea2, #185a9d);/*linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);/*linear-gradient(to right, #2bc0e4, #eaecc6);/*linear-gradient(to right, #ede574, #e1f5c4);/*linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ #b6c5ef;*/
+/*
+  Dark theme:
+  Blubes: linear-gradient(to right, #00dbde, #fc00ff); background: linear-gradient(to right, #2b5876, #4e4376);
+  Light Theme
+  Ribena: linear-gradient(to right, #aa076b, #61045f);
+  Fanta: linear-gradient(to right, #ff8008, #ffc837); 
+  candyfloss: linear-gradient(to right, #2bc0e4, #eaecc6);
+  Clay: linear-gradient(to right, #757f9a, #d7dde8);
+  Peach: linear-gradient(to right, #de6262, #ffb88c);
+*/
+}
+
+body {
+  background: #e9e6da;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+.cont {
+  padding: 0;
+  margin: 0;
+
+  overflow-x: hidden;
+  overflow-y: hidden;
+  filter: url("#goo");
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.blob {
+  filter: blur(10px);
+  position: fixed;
+  display: inline-block;
+  opacity: 0;
+  width: var(--width);
+  height: var(--width);
+  background: var(--meta-colour);
+  transition: ease-in;
+
+  /*box-shadow: 5px 5px 5px 5px rgba(17, 21, 28, 0.5);
+  /*animation: rotate 30s infinite linear;*/
+}
+
+.circle {
+  width: var(--width);
+  height: var(--width);
+  border-radius: 100%;
+}
+
+
+
+
+
+  .cursor {
+    pointer-events: none;
+}
+/* __ball {
+      position: fixed;
+      top: 0;
+      left: 0;
+      mix-blend-mode: difference;
+      z-index: 1000;
+} */
+  circle {
+        fill: #f7f8fa;
+ }
+
+
+@supports(-webkit-mask-image: url(#mask)) or (mask-image: url(#mask)) {
+  /* code that requires mask-image here. */
+}
+
+:root {
+  --width: 100px;
+  --backround: linear-gradient(to right, #141e30, #243b55);/*linear-gradient(to right, #485563, #29323c); /*linear-gradient(to right, #6441a5, #2a0845);/*linear-gradient(to right, #136a8a, #267871);/*linear-gradient(to right, #ddd6f3, #faaca8);/*linear-gradient(to right, #2b5876, #4e4376);/**/
+  
+ --meta-colour: radial-gradient(circle, #6190e8, #a7bfe8);/*linear-gradient(to right, #4ac29a, #bdfff3);/* linear-gradient(to right, #fe8c00, #f83600);/*linear-gradient(to right, #83a4d4, #b6fbff);/*linear-gradient(to right, #43cea2, #185a9d);/*linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);/*linear-gradient(to right, #2bc0e4, #eaecc6);/*linear-gradient(to right, #ede574, #e1f5c4);/*linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ #b6c5ef;*/
+/*
+  Dark theme:
+  Blubes: linear-gradient(to right, #00dbde, #fc00ff); background: linear-gradient(to right, #2b5876, #4e4376);
+  Light Theme
+  Ribena: linear-gradient(to right, #aa076b, #61045f);
+  Fanta: linear-gradient(to right, #ff8008, #ffc837); 
+  candyfloss: linear-gradient(to right, #2bc0e4, #eaecc6);
+  Clay: linear-gradient(to right, #757f9a, #d7dde8);
+  Peach: linear-gradient(to right, #de6262, #ffb88c);
+*/
+}
+
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+main {
+  position: fixed;
+  top: 0;
+  left: 0;
+/*  note vh and vw switched  */
+  width: 100vh; 
+  height: 100vw;
+/*    */
+  transform-origin: top left;
+  transform: rotate(-90deg) translateX(-100vh);
+  overflow-x: hidden;
+  overflow-y: scroll;
+/*   scroll-snap-type: y mandatory; */
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  height: fit-content;
+  transform-origin: top left;
+  transform: rotate(90deg) translateY(-100vh);
+}
+
+h1 {
+
+  font-family: "fairwater-script", sans-serif;
+font-weight: 400;
+  font-size: 2rem; 
+font-style: normal;
+  line-height: 2.5rem;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+/*   scroll-snap-align: start; */
+  overflow-y: hidden;
+  display: flex;
+/*   align-items: center; */
+  justify-content: center;
+  font-family: "greycliff-cf", sans-serif;
+font-style: normal;
+  font-size: 1rem;
+    flex-direction: column;
+/*  backface visibility keeps font from looking weird  */
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+
+.cont {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  filter: url("#goo");
+  width: 100vw;
+  height: 100vh;
+}
+
+/*  blob styles */
+
+.blob {
+  filter: blur(10px);
+  position: fixed;
+  display: inline-block;
+  opacity: 0;
+  width: var(--width);
+  height: var(--width);
+  background: var(--meta-colour);
+  transition: ease-in-out 0.2s;
+}
+
+
+
+
+
+
