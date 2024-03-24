@@ -3,98 +3,71 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Postcard</title>
-<style>
-    body {
-        margin: 0;
-        padding: 0;
-        font-family: Arial, sans-serif;
-        background-color: #f0f0f0;
-    }
+<link rel="stylesheet" href="styles.css">
 
-    .postcard {
-        width: 400px;
-        height: 250px;
-        background-color: white;
-        border: 2px solid transparent; /* Transparent border to be overwritten by stripes */
-        border-image: repeating-linear-gradient(45deg, red, red 10px, blue 10px, blue 20px);
-        border-image-slice: 1;
-        border-radius: 10px;
-        position: relative;
-        margin: 50px auto;
-        overflow: hidden;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-    }
-
-    .text-lines {
-        position: absolute;
-        width: 80%;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    .text-line {
-        height: 2px;
-        background-color: black;
-        margin-bottom: 10px;
-    }
-
-    .stamp {
-        position: absolute;
-        bottom: 20px;
-        right: 20px;
-        width: 50px;
-        height: 50px;
-        border: 2px solid red;
-        border-radius: 5px;
-        padding: 5px;
-        box-sizing: border-box;
-    }
-
-    .heart {
-        width: 100%;
-        height: 100%;
-        background-color: transparent;
-        position: relative;
-    }
-
-    .heart:before,
-    .heart:after {
-        position: absolute;
-        content: "";
-        left: 0;
-        top: 0;
-        width: 20px;
-        height: 30px;
-        background-color: transparent;
-        border-radius: 20px 20px 0 0;
-        transform: rotate(-45deg);
-        transform-origin: 0 100%;
-    }
-
-    .heart:before {
-        border-bottom: 2px solid red;
-        border-right: 2px solid red;
-    }
-
-    .heart:after {
-        border-bottom: 2px solid red;
-        border-left: 2px solid red;
-    }
-</style>
+<link rel="stylesheet" href="https://use.typekit.net/ekv2exw.css"> 
+<!-- Playfair display -->
 </head>
+
+<title>Postcard</title>
 <body>
 
+
+<h1> dear </h1>
+
 <div class="postcard">
+
+<div class="postcard-a">
+     <div class="text-lines">
+         <div class="text-line"></div>
+             <div class="text-line"></div>
+                <div class="text-line"></div>
+               </div>
+
+ <div class="postcard-b">
+    <div class="text-lines">
+       <div class="text-line"></div>
+           <div class="text-line"></div>
+             <div class="text-line"></div>
+             </div>
+
+<div class="postcard-c">
     <div class="text-lines">
         <div class="text-line"></div>
+             <div class="text-line"></div>
+               <div class="text-line"></div>
+             </div>
+
+<div class="postcard-d">
+    <div class="text-lines">
         <div class="text-line"></div>
+            <div class="text-line"></div>
+               <div class="text-line"></div>
+            </div>
+        
+<div class="postcard-e">
+    <div class="text-lines">
         <div class="text-line"></div>
-    </div>
-    <div class="stamp">
-        <div class="heart"></div>
-    </div>
+            <div class="text-line"></div>
+               <div class="text-line"></div>
+             </div>
+
+ <div class="postcard-f">
+    <div class="text-lines">
+        <div class="text-line"></div>
+            <div class="text-line"></div>
+               <div class="text-line"></div>
+             </div>
+
+ <div class="postcard-g">
+    <div class="text-lines">
+        <div class="text-line"></div>
+           <div class="text-line"></div>
+             <div class="text-line"></div>
+            </div>
+        
+
+
 </div>
 
 </body>

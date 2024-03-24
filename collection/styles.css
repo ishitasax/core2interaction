@@ -1,0 +1,111 @@
+:root {
+    --primary-color: #f9f7f6;
+    --secondary-color: #000000;
+    --tertiary-color: beige; 
+  
+    --heading-one: 15rem;
+    --heading-two: 2rem;
+    --heading-three: 1.2rem;
+  
+    --width: 600px;
+    --height: 400px;
+  
+    --weight-primary: 700;
+    --weight-secondary: 200;
+  
+    --line-height: 5rem;
+  
+   }
+  
+   body {
+    /* margin: 0; */
+    /* overflow: hidden; */
+    background-color: var(--primary-color);
+  }
+  
+  h1 {
+    font-family: "playfair-display", serif;
+    position: absolute;
+    font-weight: var(--weight-primary);
+    font-size: var(--heading-one);    
+    margin-left: 110px;
+    bottom: 480px;
+    line-height: var(--line-height);
+    bottom: 0.5rem;
+    left: 0.5rem;
+  }
+  
+  
+
+.postcard-a {
+    margin-top: 60%;
+  /* display: flex;
+  flex-direction: row-reverse; */
+  position: relative;
+  width: 600px;
+  height: 400px;
+  box-sizing: border-box;
+  /* background-color: var(--tertiary-color); */
+  border-radius: 15px;
+  /* justify-content: space-around; */
+  
+  border: 4px solid transparent; /* Transparent border to be overwritten by stripes */
+  border-image: repeating-linear-gradient(45deg, red, red 10px, blue 10px, blue 20px);
+  border-image-slice: 1;
+  border-radius: 10px;
+    
+}
+
+.postcard-b {
+
+    top: 130%;
+  /* display: flex;
+  flex-direction: row-reverse; */
+  position: relative;
+  width: 600px;
+  height: 400px;
+  box-sizing: border-box;
+  /* background-color: var(--tertiary-color); */
+  border-radius: 15px;
+  justify-content: space-around;
+ 
+  border: 4px solid transparent; /* Transparent border to be overwritten by stripes */
+  border-image: repeating-linear-gradient(45deg, red, red 10px, blue 10px, blue 20px);
+  border-image-slice: 1;
+  border-radius: 10px;
+}
+
+.postcard-c {
+
+    top: 140%;
+  /* display: flex;
+  flex-direction: row-reverse; */
+  position: relative;
+  width: 600px;
+  height: 400px;
+  box-sizing: border-box;
+  /* background-color: var(--tertiary-color); */
+  border-radius: 15px;
+  justify-content: space-around;
+
+
+  border: 4px solid transparent; /* Transparent border to be overwritten by stripes */
+  border-image: repeating-linear-gradient(45deg, red, red 10px, blue 10px, blue 20px);
+  border-image-slice: 1;
+  border-radius: 10px;
+}
+
+
+/* .text-lines {
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-line {
+    height: 1px;
+    background-color: black;
+    margin-bottom: 10px;
+} */
