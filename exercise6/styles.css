@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+  }
+  
+  .parent {
+   position: relative;
+   display: flex;
+   gap: 0.5rem;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+    }
+  
+  
+  .box {
+  /*   display: inline-block; */
+    width: 100px;
+    height: 100px;
+    background-color: hsl(20, 90%, 60%);
+  }
+
+  
