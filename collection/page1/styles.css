@@ -48,11 +48,7 @@ hr {
 
 .heart {
   z-index: 0;
-  width: 13rem;
-  left: 20rem;
-  margin-top: 38%;
-  margin-left: 24%;
-  rotate: 20deg;
+ max-width: 2rem;
 }
 
 h2 {

@@ -46,6 +46,22 @@ hr {
   margin-top: 60%;
 }
 
+@keyframes heartThrob {
+  0% {
+      transform: scale(1); /* Original size */
+  }
+  50% {
+      transform: scale(1.2); /* Slightly larger size */
+  }
+  100% {
+      transform: scale(1); /* Back to original size */
+  }
+}
+
+
+
+
+
 .heart {
   z-index: 0;
   width: 13rem;
@@ -53,7 +69,11 @@ hr {
   margin-top: 38%;
   margin-left: 24%;
   rotate: 20deg;
+  animation: heartThrob 3s infinite;
+
 }
+
+
 
 h2 {
   /* font-family: "area-normal", sans-serif;
