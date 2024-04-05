@@ -62,7 +62,7 @@ font-style: normal; */
   font-family: "courier-prime", monospace;
   font-weight: var(--height); 
 font-size: 1.4rem;
-margin-top: 12%;
+margin-top: 10%;
 margin-left: 45%;
 }
 
@@ -123,8 +123,7 @@ margin-left: 45%;
   border-image-slice: 1;
   border-radius: 10px;
   box-shadow: 0 0 5px rgba(14, 14, 14, 0.5);
-   transition: transform 0.4s ease; /* Add shadow */
-
+  transition: transform 0.4s ease; /* Add shadow */
 }
 
 .child-b:hover {
