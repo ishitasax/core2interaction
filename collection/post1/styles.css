@@ -1,0 +1,88 @@
+:root {
+    --primary-color: #e7ddd2;
+    --secondary-color:#000000;
+    --tertiary-color: #f2ebe5; 
+  
+    --heading-one: 15rem;
+    --heading-two: 2rem;
+    --heading-three: 1.2rem;
+  
+    --width: 600px;
+    --height: 400px;
+  
+    --weight-primary: 700;
+    --weight-secondary: 200;
+  
+    --line-height: 5rem;
+  
+   }
+  
+   /* .custom-cursor {
+    cursor: url('heart.png'), auto;
+} */
+   
+   body {
+    /* margin: 0; */
+    /* overflow: hidden; */
+    background-color: var(--primary-color);
+    }
+    
+    /* .container {
+      width: 100%;
+      height: 100%;
+      border: 0.4rem solid transparent; 
+      border-image: repeating-linear-gradient(45deg, rgb(217, 13, 74), rgb(217, 13, 74) 10px, #153c89 10px, #153c89 20px); 
+      border-image-slice: 1;
+      border-radius: 10px;
+      box-shadow: 0 0 5px rgba(14, 14, 14, 0.5);
+    } */
+  
+  h1 {
+    z-index: 1;
+    /* font-family: "blithe", sans-serif; */
+   font-family: "playfair-display", serif;
+   position: absolute;
+   font-weight: var(--weight-primary);
+   font-size: 12rem;    
+   margin-left: 110px;
+   bottom: 480px;
+   line-height: var(--line-height);
+   bottom: 0.5rem;
+   left: 0.5rem;
+  }
+  
+hr {
+  width: 80%;
+  margin-top: 60%;
+}
+
+.heart {
+  z-index: 0;
+ max-width: 2rem;
+ margin-left: 95%;
+ margin-top: 2%;
+ transition: transform 0.4s ease; /* Add shadow */
+}
+
+.heart:hover {
+  transform: scale(1.3); /* Scale the element to 105% of its original size on hover */
+}
+
+h2 {
+  /* font-family: "area-normal", sans-serif;
+font-weight: 100;
+font-style: normal; */
+  font-family: "courier-prime", monospace;
+  font-weight: var(--height); 
+font-size: 1.4rem;
+margin-top: 10%;
+margin-left: 45%;
+}
+
+p {
+  font-family: "courier-prime", monospace;
+  font-weight: var(--height); 
+  font-size: 1.1rem;
+  margin-left: 4rem;
+  margin-top: auto;
+}
