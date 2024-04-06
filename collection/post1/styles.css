@@ -27,16 +27,16 @@
     background-color: var(--primary-color);
     margin: 0; /* Reset default margin */
     padding: 0; /* Reset default padding */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); */
     }
     
-    .page-border {
+    /* .page-border {
       min-height: 99vh;
       border: 0.4rem solid transparent;
       border-image: repeating-linear-gradient(45deg, rgb(217, 13, 74), rgb(217, 13, 74) 10px, #153c89 10px, #153c89 20px);
       border-image-slice: 1;
       border-radius: 15px;
-    }
+    } */
 
     /* .container {
       width: 100%;
