@@ -28,17 +28,12 @@
   }
   
   h1 {
-    z-index: 1;
-    /* font-family: "blithe", sans-serif; */
-   font-family: "playfair-display", serif;
-   position: absolute;
-   font-weight: var(--weight-primary);
-   font-size: 12rem;    
-   margin-left: 110px;
-   bottom: 480px;
-   line-height: var(--line-height);
-   bottom: 0.5rem;
-   left: 0.5rem;
+    position: fixed;
+    z-index: 10;
+   font-family: "dupincel-variable",sans-serif;
+   font-size: 10rem;
+   margin-left: 40%;
+   bottom: 35%;
   }
   
 hr {
@@ -60,14 +55,14 @@ hr {
 
 
 
-
-
 .heart {
-  z-index: 0;
-  width: 13rem;
-  left: 20rem;
-  margin-top: 38%;
-  margin-left: 24%;
+  z-index: 9;
+  position: fixed;
+  width: 5rem;
+  margin-left: 80%;
+  bottom: 75%;
+  /* margin-top: 38%;
+  margin-left: 24%; */
   rotate: 20deg;
   animation: heartThrob 3s infinite;
 
@@ -95,364 +90,67 @@ margin-left: 45%;
  align-items: center;
  flex-wrap: wrap;
  margin-top: 5%;
- 
   }
 
-  .svg-image {
-    position: relative; /* Position the SVG relative to its closest positioned ancestor */
-    top: 1rem; /* Adjust top position as needed */
-    left: 0.001rem; /* Adjust left position as needed */
-    width: 6rem; /* Adjust the width of the SVG */
-    height: auto; 
+.stamp1 {
+  z-index: 3;
+  position: absolute;
+  width: 15%;
+  margin-top: 35%;
+  margin-left: 30%;
+  /* rotate: -25deg; */
+  /* animation: reveal 7s forwards;
+    opacity: 0;
+   animation-delay: 1s; */
 }
 
-  /* A */
-
-.child-a {
-  display: flex;
-  width: 600px;
-  height: 400px;
-  box-sizing: border-box;
-  background-color: var(--tertiary-color);
-  justify-content: space-around;
-  border: 0.4rem solid transparent; /* Adjusted border width */
-  border-image: repeating-linear-gradient(45deg, rgb(217, 13, 74), rgb(217, 13, 74) 10px, #153c89 10px, #153c89 20px); /* Updated colors */
-  border-image-slice: 1;
-  border-radius: 15px 15px 15px 15px; 
-  box-shadow: 0 0 5px rgba(14, 14, 14, 0.5);
-  transition: transform 0.4s ease; /* Add shadow */
-  
+.stamp2 {
+  position: absolute;
+  width: 20%;
+  margin-top: 5%;
+  margin-left: 10%;
+  rotate: 30deg;
 }
 
-.child-a:hover {
-  transform: scale(1.07); /* Scale the element to 105% of its original size on hover */
-}
-
-/* B */
-
-.child-b {
-  display: flex;
-  width: 600px;
-  height: 400px;
-  box-sizing: border-box;
-  background-color: var(--tertiary-color);
-  border-radius: 15px;
-  justify-content: space-around;
-  border: 0.4rem solid transparent; /* Adjusted border width */
-  border-image: repeating-linear-gradient(45deg, rgb(217, 13, 74), rgb(217, 13, 74) 10px, #153c89 10px, #153c89 20px); /* Updated colors */
-  border-image-slice: 1;
-  border-radius: 10px;
-  box-shadow: 0 0 5px rgba(14, 14, 14, 0.5);
-   transition: transform 0.4s ease; /* Add shadow */
+.stamp3 {
+  position: absolute;
+  width: 20%;
+  margin-top: 15%;
+  margin-left: 50%;
 
 }
 
-.child-b:hover {
-  transform: scale(1.07); /* Scale the element to 105% of its original size on hover */
+.stamp4 {
+  /* z-index: 12; */
+  position: absolute;
+  width: 30%;
+  margin-top: 20%;
+  margin-left: 30%;
 }
 
+.stamp5 {
+  /* z-index: 12; */
+  position: absolute;
+  width: 30%;
+  margin-top: 25%;
+  margin-left: 55%;
 
-/* C */
-
-.child-c {
-  display: flex;
-  width: 600px;
-  height: 400px;
-  box-sizing: border-box;
-  background-color: var(--tertiary-color);
-  border-radius: 15px;
-  justify-content: space-around;
-  border: 0.4rem solid transparent; /* Adjusted border width */
-  border-image: repeating-linear-gradient(45deg, rgb(217, 13, 74), rgb(217, 13, 74) 10px, #153c89 10px, #153c89 20px); /* Updated colors */
-  border-image-slice: 1;
-  border-radius: 10px;
-  box-shadow: 0 0 5px rgba(14, 14, 14, 0.5);
-  transition: transform 0.4s ease; /* Add shadow */
 }
 
+.stamp6 {
+  /* z-index: 12; */
+  position: absolute;
+  width: 20%;
+  margin-top: 10%;
+  margin-left: 15%;
 
-.child-c:hover {
-  transform: scale(1.07); /* Scale the element to 105% of its original size on hover */
 }
 
-/* D */
+.stamp7 {
+  /* z-index: 12; */
+  position: absolute;
+  width: 20%;
+  margin-top: 10%;
+  margin-left: 15%;
 
-.child-d {
-  display: flex;
-  width: 600px;
-  height: 400px;
-  box-sizing: border-box;
-  background-color: var(--tertiary-color);
-  border-radius: 15px;
-  justify-content: space-around;
-  border: 0.4rem solid transparent; /* Adjusted border width */
-  border-image: repeating-linear-gradient(45deg, rgb(217, 13, 74), rgb(217, 13, 74) 10px, #153c89 10px, #153c89 20px); /* Updated colors */
-  border-image-slice: 1;
-  border-radius: 10px;
-  box-shadow: 0 0 5px rgba(14, 14, 14, 0.5);
-  transition: transform 0.4s ease; /* Add shadow */
-  
 }
-
-
-.child-d:hover {
-  transform: scale(1.07); /* Scale the element to 105% of its original size on hover */
-}
-
-/* E */
-
-.child-e {
-  display: flex;
-  width: 600px;
-  height: 400px;
-  box-sizing: border-box;
-  background-color: var(--tertiary-color);
-  border-radius: 15px;
-  justify-content: space-around;
-  border: 0.4rem solid transparent; /* Adjusted border width */
-  border-image: repeating-linear-gradient(45deg, rgb(217, 13, 74), rgb(217, 13, 74) 10px, #153c89 10px, #153c89 20px); /* Updated colors */
-  border-image-slice: 1;
-  border-radius: 10px;
-  box-shadow: 0 0 5px rgba(14, 14, 14, 0.5);
-  transition: transform 0.4s ease; /* Add shadow */
-  
-}
-
-
-.child-e:hover {
-  transform: scale(1.07); /* Scale the element to 105% of its original size on hover */
-}
-
-/* F */
-
-.child-f {
-  display: flex;
-  width: 600px;
-  height: 400px;
-  box-sizing: border-box;
-  background-color: var(--tertiary-color);
-  border-radius: 15px;
-  justify-content: space-around;
-  border: 0.4rem solid transparent; /* Adjusted border width */
-  border-image: repeating-linear-gradient(45deg, rgb(217, 13, 74), rgb(217, 13, 74) 10px, #153c89 10px, #153c89 20px); /* Updated colors */
-  border-image-slice: 1;
-  border-radius: 10px;
-  box-shadow: 0 0 5px rgba(14, 14, 14, 0.5);
-  transition: transform 0.4s ease; /* Add shadow */
-  transition: transform 0.4s ease; /* Add shadow */
-}
-
-
-.child-f:hover {
-  transform: scale(1.07); /* Scale the element to 105% of its original size on hover */
-}
-
-
-/* G */
-
-.child-g {
-  display: flex;
-  width: 600px;
-  height: 400px;
-  box-sizing: border-box;
-  background-color: var(--tertiary-color);
-  border-radius: 15px;
-  justify-content: space-around;
-  border: 0.4rem solid transparent; /* Adjusted border width */
-  border-image: repeating-linear-gradient(45deg, rgb(217, 13, 74), rgb(217, 13, 74) 10px, #153c89 10px, #153c89 20px); /* Updated colors */
-  border-image-slice: 1;
-  border-radius: 10px;
-  box-shadow: 0 0 5px rgba(14, 14, 14, 0.5);
-  transition: transform 0.4s ease; /* Add shadow */
-  
-}
-
-
-.child-g:hover {
-  transform: scale(1.07); /* Scale the element to 105% of its original size on hover */
-}
-
-
-/* H */
-
-.child-h {
-  display: flex;
-  width: 600px;
-  height: 400px;
-  box-sizing: border-box;
-  background-color: var(--tertiary-color);
-  border-radius: 15px;
-  justify-content: space-around;
-  border: 0.4rem solid transparent; /* Adjusted border width */
-  border-image: repeating-linear-gradient(45deg, rgb(217, 13, 74), rgb(217, 13, 74) 10px, #153c89 10px, #153c89 20px); /* Updated colors */
-  border-image-slice: 1;
-  border-radius: 10px;
-  box-shadow: 0 0 5px rgba(14, 14, 14, 0.5);
-  transition: transform 0.4s ease; /* Add shadow */
-  
-}
-
-
-.child-h:hover {
-  transform: scale(1.07); /* Scale the element to 105% of its original size on hover */
-}
-
-
-/* I */
-
-.child-i {
-  display: flex;
-  width: 600px;
-  height: 400px;
-  box-sizing: border-box;
-  background-color: var(--tertiary-color);
-  border-radius: 15px;
-  justify-content: space-around;
-  border: 0.4rem solid transparent; /* Adjusted border width */
-  border-image: repeating-linear-gradient(45deg, rgb(217, 13, 74), rgb(217, 13, 74) 10px, #153c89 10px, #153c89 20px); /* Updated colors */
-  border-image-slice: 1;
-  border-radius: 10px;
-  box-shadow: 0 0 5px rgba(14, 14, 14, 0.5);
-  transition: transform 0.4s ease; /* Add shadow */
-  
-}
-
-
-.child-i:hover {
-  transform: scale(1.07); /* Scale the element to 105% of its original size on hover */
-}
-
-
-/* J */
-
-.child-j {
-  display: flex;
-  width: 600px;
-  height: 400px;
-  box-sizing: border-box;
-  background-color: var(--tertiary-color);
-  border-radius: 15px;
-  justify-content: space-around;
-  border: 0.4rem solid transparent; /* Adjusted border width */
-  border-image: repeating-linear-gradient(45deg, rgb(217, 13, 74), rgb(217, 13, 74) 10px, #153c89 10px, #153c89 20px); /* Updated colors */
-  border-image-slice: 1;
-  border-radius: 10px;
-  box-shadow: 0 0 5px rgba(14, 14, 14, 0.5);
-  transition: transform 0.4s ease; /* Add shadow */
-  
-}
-
-
-.child-j:hover {
-  transform: scale(1.07); /* Scale the element to 105% of its original size on hover */
-}
-
-
-.text-line {
-  z-index: 200;
-  height: 1px;
-  background-color: black;
-  margin-bottom: 10px;
-}
-
-.text1 {
-  font-family: "courier-prime", monospace;
-  font-weight: var(--height); 
-  font-style: normal;
-  font-size: 1rem;
-  z-index: 1;
-  margin: auto;
-}
-
-.text2 {
-  font-family: "courier-prime", monospace;
-  font-weight: var(--height);
-  /* bottom: 0.5rem; */
-  font-style: normal;
-  font-size: 1rem;
-  z-index: 1;
-  margin: auto;
-}
-
-.text3 {
-  font-family: "courier-prime", monospace;
-  font-weight: var(--height);
-  bottom: 0.5rem;
-   font-style: normal;
-  font-size: 1rem;
-  z-index: 1;
-  margin: auto;
-}
-
-.text4 {
-  font-family: "courier-prime", monospace;
-  font-weight: var(--height);
-  bottom: 0.5rem;
-   font-style: normal;
-  font-size: 1rem;
-  z-index: 1;
-  margin: auto;
-}
-
-.text5 {
-  font-family: "courier-prime", monospace;
-  font-weight: var(--height);
-  bottom: 0.5rem;
-   font-style: normal;
-  font-size: 1rem;
-  z-index: 1;
-  margin: auto;
-}
-
-.text6 {
-  font-family: "courier-prime", monospace;
-  font-weight: var(--height);
-  bottom: 0.5rem;
-   font-style: normal;
-  font-size: 1rem;
-  z-index: 1;
-  margin: auto;
-}
-
-.text7 {
-  font-family: "courier-prime", monospace;
-  font-weight: var(--height);
-  bottom: 0.5rem;
-   font-style: normal;
-  font-size: 1rem;
-  z-index: 1;
-  margin: auto;
-  
-}
-
-.text8 {
-  font-family: "courier-prime", monospace;
-  font-weight: var(--height);
-  bottom: 0.5rem;
-   font-style: normal;
-  font-size: 1rem;
-  z-index: 1;
-  margin: auto;
-}
-
-.text9 {
-  font-family: "courier-prime", monospace;
-  font-weight: var(--height);
-  bottom: 0.5rem;
-   font-style: normal;
-  font-size: 1rem;
-  z-index: 1;
-  margin: auto;
-}
-
-.text10 {
-  font-family: "courier-prime", monospace;
-  font-weight: var(--height);
-  bottom: 0.5rem;
-   font-style: normal;
-  font-size: 1rem;
-  z-index: 1;
-  margin: auto;
-}
-
-

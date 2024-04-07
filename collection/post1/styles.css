@@ -51,10 +51,8 @@
   h1 {
     z-index: 1;
     /* font-family: "blithe", sans-serif; */
-   font-family: "playfair-display", serif;
-   position: absolute;
-   font-weight: var(--weight-primary);
-   font-size: 12rem;    
+    font-family: "dupincel-variable", sans-serif;
+    font-variation-settings: "opsz" 24, "wght" 544;   
    margin-left: 110px;
    bottom: 480px;
    line-height: var(--line-height);
@@ -91,9 +89,10 @@ margin-left: 45%;
 }
 
 p {
+  max-width: 50%;
   font-family: "courier-prime", monospace;
   font-weight: var(--height); 
-  font-size: 1.1rem;
-  margin-left: 4rem;
-  margin-top: auto;
+  font-size: 1rem;
+  margin-left: 10rem;
+  margin-top: 2.5rem;
 }
