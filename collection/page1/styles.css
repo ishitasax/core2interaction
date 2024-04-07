@@ -47,6 +47,7 @@ hr {
 }
 
 .heart {
+  /* position: fixed; */
   z-index: 0;
  max-width: 2rem;
  margin-left: 95%;
@@ -377,7 +378,7 @@ margin-left: 45%;
   font-size: 1.9rem;
   z-index: 300;
   margin-left: 60%;
-  margin-top: -25%;
+  margin-top: -38%;
 }
 
 

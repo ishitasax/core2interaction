@@ -81,83 +81,11 @@ margin-top: 12%;
 margin-left: 45%;
 }
 
-.parent {
- position: relative;
- display: flex;
- gap: 70px;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- flex-wrap: wrap;
- margin-top: 5%;
-  }
-
-.stamp1 {
-  z-index: 3;
-  position: absolute;
-  width: 15%;
-  margin-top: 35%;
-  margin-left: 30%;
-  animation: fadeIn 2s forwards; /* Apply the fadeIn animation with a duration of 2s */
-  animation-delay: 1s; /* Delay the animation start by 1s */
-  /* rotate: -25deg; */
-  /* animation: reveal 7s forwards;
-    opacity: 0;
-   animation-delay: 1s; */
-}
-
-.stamp2 {
-  position: absolute;
-  width: 20%;
-  margin-top: 5%;
-  margin-left: 10%;
-  rotate: 30deg;
-  
-}
-
-.stamp3 {
-  position: absolute;
-  width: 20%;
-  margin-top: 15%;
-  margin-left: 50%;
-  /* Initially set opacity to 0 */
-  animation-fill-mode: forwards; /* Keeps the element visible at the end of the animation */
-  animation: fadeIn 2s forwards; /* Apply the fadeIn animation with a duration of 2s */
-  animation-delay: 1s; /* Delay the animation start by 1s */
-
-}
-
-.stamp4 {
-  /* z-index: 12; */
-  position: absolute;
-  width: 30%;
-  margin-top: 20%;
-  margin-left: 30%;
-}
-
-.stamp5 {
-  /* z-index: 12; */
-  position: absolute;
-  width: 30%;
-  margin-top: 25%;
-  margin-left: 55%;
-
-}
-
-.stamp6 {
-  /* z-index: 12; */
-  position: absolute;
-  width: 20%;
-  margin-top: 10%;
-  margin-left: 15%;
-
-}
-
-.stamp7 {
-  /* z-index: 12; */
-  position: absolute;
-  width: 20%;
-  margin-top: 10%;
-  margin-left: 15%;
-
+p {
+  max-width: 50%;
+  font-family: "courier-prime", monospace;
+  font-weight: var(--height); 
+  font-size: 1rem;
+  margin-left: 10rem;
+  margin-top: 2.5rem;
 }
