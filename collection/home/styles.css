@@ -81,11 +81,27 @@ margin-top: 12%;
 margin-left: 45%;
 }
 
-p {
-  max-width: 50%;
-  font-family: "courier-prime", monospace;
-  font-weight: var(--height); 
-  font-size: 1rem;
-  margin-left: 10rem;
-  margin-top: 2.5rem;
+.stamp1 {
+  width: 15%;
+
+}
+
+.stamp3 {
+  width: 30%;
+
+}
+
+.stamp4 {
+  width: 20%;
+
+}
+
+.stamp5 {
+  width: 25%;
+
+}
+
+.stamp7 {
+  width: 15%;
+
 }
