@@ -98,6 +98,8 @@ margin-left: 45%;
   width: 15%;
   margin-top: 35%;
   margin-left: 30%;
+  animation: fadeIn 2s forwards; /* Apply the fadeIn animation with a duration of 2s */
+  animation-delay: 1s; /* Delay the animation start by 1s */
   /* rotate: -25deg; */
   /* animation: reveal 7s forwards;
     opacity: 0;
@@ -110,6 +112,7 @@ margin-left: 45%;
   margin-top: 5%;
   margin-left: 10%;
   rotate: 30deg;
+  
 }
 
 .stamp3 {
@@ -117,6 +120,10 @@ margin-left: 45%;
   width: 20%;
   margin-top: 15%;
   margin-left: 50%;
+  /* Initially set opacity to 0 */
+  animation-fill-mode: forwards; /* Keeps the element visible at the end of the animation */
+  animation: fadeIn 2s forwards; /* Apply the fadeIn animation with a duration of 2s */
+  animation-delay: 1s; /* Delay the animation start by 1s */
 
 }
 
