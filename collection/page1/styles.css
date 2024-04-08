@@ -47,6 +47,7 @@ hr {
 }
 
 .heart {
+  position: fixed;
   /* position: fixed; */
   z-index: 0;
  max-width: 2rem;
@@ -72,17 +73,21 @@ hr {
 }
 
 h2 {
-  /* font-family: "area-normal", sans-serif;
-font-weight: 100;
-font-style: normal; */
-  /* font-family: "courier-prime", monospace; */
-  font-family: "dupincel-variable",sans-serif;
-  font-weight: var(--height); 
-font-size: 2rem;
-margin-top: 5%;
-margin-left: 45%;
+position: fixed;
+font-family: "dupincel-variable",sans-serif;
+margin-top: 2%;
+margin-left: 48%;
+z-index: 1000;
 font-style: italic;
 }
+
+
+.typewrite { color:#1d1d1d; text-decoration: none;}
+a{
+  font-size: 2rem; 
+}
+
+
 
 .parent {
  position: relative;
