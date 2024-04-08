@@ -58,13 +58,13 @@ hr {
 .heart {
   z-index: 9;
   position: fixed;
-  width: 5rem;
-  margin-left: 80%;
-  bottom: 75%;
+  width: 7rem;
+  margin-left: 57%;
+  bottom: 55%;
   /* margin-top: 38%;
   margin-left: 24%; */
-  rotate: 20deg;
-  animation: heartThrob 3s infinite;
+  rotate: 25deg;
+  animation: heartThrob 2.5s infinite;
 
 }
 
@@ -81,27 +81,106 @@ margin-top: 12%;
 margin-left: 45%;
 }
 
-.stamp1 {
-  width: 15%;
 
+/* Define initial opacity for the images */
+.stamp1, .stamp3, .stamp4, .stamp5, .stamp7 {
+  opacity: 0;
+}
+
+/* Define animation for fade-in effect with different timings */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  25% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* Apply different animation durations and delays for each image */
+.stamp1 {
+  animation: fadeIn 4s ease-out forwards; /* Duration: 2s, Delay: 0s */
+  z-index: 1;
+  position: absolute;
+  width: 15%;
+  margin-left: 20%;
+  margin-top: 10%;
 }
 
 .stamp3 {
+  animation: fadeIn 3.5s ease-out forwards; /* Duration: 1.5s, Delay: 0.5s */
+  position: absolute;
   width: 30%;
-
+  margin-left: 19%;
+  margin-top: 14%;
 }
 
 .stamp4 {
-  width: 20%;
+  animation: fadeIn 5s ease-out forwards; /* Duration: 2.5s, Delay: 1s */
+  position: absolute;
+  width: 40%;
+  margin-left: 25%;
+  margin-top: 30%;
+  z-index: 11;
 
 }
 
 .stamp5 {
-  width: 25%;
-
+  animation: fadeIn 3.5s ease-out forwards; /* Duration: 2s, Delay: 1.5s */
+  z-index: 12;
+  position: absolute;
+  width: 35%;
+  margin-top: 20%;
+  margin-left: 10;
 }
 
 .stamp7 {
+  animation: fadeIn 4.5s ease-out forwards; /* Duration: 1.5s, Delay: 2s */
+  position: absolute;
+  width: 35%;
+  margin-left: 50%;
+  margin-top: 20%;
+}
+
+
+
+/* .stamp1 {
+  z-index: 1;
+  position: absolute;
   width: 15%;
+  margin-left: 20%;
+  margin-top: 10%;
 
 }
+
+.stamp3 {
+  position: absolute;
+  width: 30%;
+  margin-left: 19%;
+  margin-top: 14%;
+
+
+}
+
+.stamp4 {
+  position: absolute;
+  width: 40%;
+  margin-left: 25%;
+  margin-top: 30%;
+  z-index: 11;
+
+}
+
+.stamp5 {
+  z-index: 12;
+  position: absolute;
+  width: 35%;
+  margin-top: 20%;
+  margin-left: 10;
+
+} */
+/* 
+.stamp7 {
+  position: absolute;
+  width: 35%;
+  margin-left: 50%;
+  margin-top: 20%;
+
+} */
