@@ -47,7 +47,7 @@ hr {
 }
 
 .heart {
-  position: fixed;
+  /* position: fixed; */
   /* position: fixed; */
   z-index: 0;
  max-width: 2rem;
