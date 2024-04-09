@@ -1,0 +1,549 @@
+:root {
+    --primary-color: #e7ddd2;
+    --secondary-color:#000000;
+    --tertiary-color: #f2ebe5; 
+  
+    --heading-one: 15rem;
+    --heading-two: 2rem;
+    --heading-three: 1.2rem;
+  
+    --width: 600px;
+    --height: 400px;
+  
+    --weight-primary: 700;
+    --weight-secondary: 200;
+  
+    --line-height: 5rem;
+  
+   }
+  
+   /* .custom-cursor {
+    cursor: url('heart.png'), auto;
+} */
+   
+   body {
+    /* margin: 0; */
+    /* overflow: hidden; */
+    background-color: var(--primary-color);
+  }
+  
+  h1 {
+    z-index: 1;
+    /* font-family: "blithe", sans-serif; */
+   font-family: "playfair-display", serif;
+   position: absolute;
+   font-weight: var(--weight-primary);
+   font-size: 12rem;    
+   margin-left: 110px;
+   bottom: 480px;
+   line-height: var(--line-height);
+   bottom: 0.5rem;
+   left: 0.5rem;
+  }
+  
+hr {
+  width: 80%;
+  margin-top: 60%;
+}
+
+.heart {
+  /* position: fixed; */
+  /* position: fixed; */
+  z-index: 0;
+ max-width: 2rem;
+ margin-left: 95%;
+ margin-top: 2%;
+ transition: transform 0.4s ease; /* Add shadow */
+}
+
+@keyframes heartThrob {
+  0% {
+      transform: scale(1); /* Original size */
+  }
+  50% {
+      transform: scale(1.2); /* Slightly larger size */
+  }
+  100% {
+      transform: scale(1); /* Back to original size */
+  }
+}
+
+.heart:hover {
+  transform: scale(1.3); /* Scale the element to 105% of its original size on hover */
+}
+
+h2 {
+position: fixed;
+font-family: "dupincel-variable",sans-serif;
+margin-top: 2%;
+margin-left: 48%;
+z-index: 1000;
+font-style: italic;
+}
+
+
+.typewrite { color:#1d1d1d; text-decoration: none;}
+a{
+  font-size: 2rem; 
+}
+
+
+
+.parent {
+ position: relative;
+ display: flex;
+ gap: 0px;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: nowrap;
+ margin-top: 1%;
+ opacity: 80%;
+
+  }
+
+  .svg-image {
+    position: relative; /* Position the SVG relative to its closest positioned ancestor */
+    top: 1rem; /* Adjust top position as needed */
+    left: 0.001rem; /* Adjust left position as needed */
+    width: 6rem; /* Adjust the width of the SVG */
+    height: auto; 
+}
+
+  /* A */
+
+
+
+.child-a {
+  display: flex;
+ scale: 80%;
+  /* box-sizing: border-box;
+  background-color: var(--tertiary-color);
+  justify-content: space-around;
+  border: 0.4rem solid transparent; /* Adjusted border width */
+  /* border-image: repeating-linear-gradient(45deg, rgb(217, 13, 74), rgb(217, 13, 74) 10px, #153c89 10px, #153c89 20px); 
+  border-radius: 15px 15px 15px 15px; 
+  box-shadow: 0 0 5px rgba(14, 14, 14, 0.5); */
+  transition: transform 0.4s ease; 
+   
+}
+
+.child-a:hover {
+  transform: scale(1.07); /* Scale the element to 105% of its original size on hover */
+}
+
+/* B */
+
+.child-b {
+  scale: 80%;
+  /* display: flex;
+  width: 600px;
+  height: 400px;
+  box-sizing: border-box;
+  background-color: var(--tertiary-color);
+  border-radius: 15px;
+  justify-content: space-around;
+  border: 0.4rem solid transparent; 
+  border-image: repeating-linear-gradient(45deg, rgb(217, 13, 74), rgb(217, 13, 74) 10px, #153c89 10px, #153c89 20px); 
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(14, 14, 14, 0.5); */
+  transition: transform 0.4s ease; /* Add shadow */
+}
+
+.child-b:hover {
+  transform: scale(1.07); /* Scale the element to 105% of its original size on hover */
+}
+
+
+/* C */
+
+.child-c {
+  scale: 80%;
+  /* display: flex;
+  width: 600px;
+  height: 400px;
+  box-sizing: border-box;
+  background-color: var(--tertiary-color);
+  border-radius: 15px;
+  justify-content: space-around;
+  border: 0.4rem solid transparent; 
+  border-image: repeating-linear-gradient(45deg, rgb(217, 13, 74), rgb(217, 13, 74) 10px, #153c89 10px, #153c89 20px); 
+  border-image-slice: 1;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(14, 14, 14, 0.5); */
+  transition: transform 0.4s ease; /* Add shadow */
+}
+
+
+.child-c:hover {
+  transform: scale(1.07); /* Scale the element to 105% of its original size on hover */
+}
+
+/* D */
+
+.child-d {
+  scale: 80%;
+  /* display: flex;
+  width: 600px;
+  height: 400px;
+  box-sizing: border-box;
+  background-color: var(--tertiary-color);
+  border-radius: 15px;
+  justify-content: space-around;
+  border: 0.4rem solid transparent; 
+  border-image: repeating-linear-gradient(45deg, rgb(217, 13, 74), rgb(217, 13, 74) 10px, #153c89 10px, #153c89 20px); 
+  border-image-slice: 1;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(14, 14, 14, 0.5); */
+  transition: transform 0.4s ease; /* Add shadow */
+  
+}
+
+
+.child-d:hover {
+  transform: scale(1.07); /* Scale the element to 105% of its original size on hover */
+}
+
+/* E */
+
+.child-e {
+  scale: 80%;
+  /* display: flex;
+  width: 600px;
+  height: 400px;
+  box-sizing: border-box;
+  background-color: var(--tertiary-color);
+  border-radius: 15px;
+  justify-content: space-around;
+  border: 0.4rem solid transparent; 
+  border-image: repeating-linear-gradient(45deg, rgb(217, 13, 74), rgb(217, 13, 74) 10px, #153c89 10px, #153c89 20px); 
+  border-image-slice: 1;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(14, 14, 14, 0.5); */
+  transition: transform 0.4s ease; /* Add shadow */
+  
+}
+
+
+.child-e:hover {
+  transform: scale(1.07); /* Scale the element to 105% of its original size on hover */
+}
+
+/* F */
+
+.child-f {
+  scale: 80%;
+  /* display: flex;
+  width: 600px;
+  height: 400px;
+  box-sizing: border-box;
+  background-color: var(--tertiary-color);
+  border-radius: 15px;
+  justify-content: space-around;
+  border: 0.4rem solid transparent; 
+  border-image: repeating-linear-gradient(45deg, rgb(217, 13, 74), rgb(217, 13, 74) 10px, #153c89 10px, #153c89 20px); 
+  border-image-slice: 1;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(14, 14, 14, 0.5); */
+  transition: transform 0.4s ease; /* Add shadow */
+ 
+}
+
+
+.child-f:hover {
+  transform: scale(1.07); /* Scale the element to 105% of its original size on hover */
+}
+
+
+/* G */
+
+.child-g {
+  scale: 80%;
+  /* display: flex;
+  width: 600px;
+  height: 400px;
+  box-sizing: border-box;
+  background-color: var(--tertiary-color);
+  border-radius: 15px;
+  justify-content: space-around;
+  border: 0.4rem solid transparent; 
+  border-image: repeating-linear-gradient(45deg, rgb(217, 13, 74), rgb(217, 13, 74) 10px, #153c89 10px, #153c89 20px); 
+  border-image-slice: 1;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(14, 14, 14, 0.5); */
+  transition: transform 0.4s ease; 
+  
+}
+
+
+.child-g:hover {
+  transform: scale(1.07); /* Scale the element to 105% of its original size on hover */
+}
+
+
+/* H */
+
+.child-h {
+  scale: 80%;
+  /* display: flex;
+  width: 600px;
+  height: 400px;
+  box-sizing: border-box;
+  background-color: var(--tertiary-color);
+  border-radius: 15px;
+  justify-content: space-around;
+  border: 0.4rem solid transparent; 
+  border-image: repeating-linear-gradient(45deg, rgb(217, 13, 74), rgb(217, 13, 74) 10px, #153c89 10px, #153c89 20px); 
+  border-image-slice: 1;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(14, 14, 14, 0.5); */
+  transition: transform 0.4s ease; /* Add shadow */
+  
+}
+
+
+.child-h:hover {
+  transform: scale(1.07); /* Scale the element to 105% of its original size on hover */
+}
+
+
+/* I */
+
+.child-i {
+  scale: 80%;
+  /* display: flex;
+  width: 600px;
+  height: 400px;
+  box-sizing: border-box;
+  background-color: var(--tertiary-color);
+  border-radius: 15px;
+  justify-content: space-around;
+  border: 0.4rem solid transparent;
+  border-image: repeating-linear-gradient(45deg, rgb(217, 13, 74), rgb(217, 13, 74) 10px, #153c89 10px, #153c89 20px); 
+  border-image-slice: 1;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(14, 14, 14, 0.5); */
+  transition: transform 0.4s ease; /* Add shadow */
+  
+}
+
+
+.child-i:hover {
+  transform: scale(1.07); /* Scale the element to 105% of its original size on hover */
+}
+
+
+/* J */
+
+.child-j {
+  scale: 80%;
+  /* display: flex;
+  width: 600px;
+  height: 400px;
+  box-sizing: border-box;
+  background-color: var(--tertiary-color);
+  border-radius: 15px;
+  justify-content: space-around;
+  border: 0.4rem solid transparent; 
+  border-image: repeating-linear-gradient(45deg, rgb(217, 13, 74), rgb(217, 13, 74) 10px, #153c89 10px, #153c89 20px); 
+  border-image-slice: 1;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(14, 14, 14, 0.5); */
+  transition: transform 0.4s ease; /* Add shadow */
+  
+}
+
+
+.child-j:hover {
+  transform: scale(1.07); /* Scale the element to 105% of its original size on hover */
+}
+
+
+.text-line {
+  z-index: 200;
+  height: 1px;
+  background-color: black;
+  margin-bottom: 10px;
+}
+
+.text1 {
+  position: absolute;
+  font-family: "dupincel-variable",sans-serif;
+  font-weight: var(--height); 
+  font-style: normal;
+  font-size: 2.2rem;
+  z-index: 300;
+  margin-left: 60%;
+  margin-top: 25%;
+}
+
+.text2 {
+  position: absolute;
+  font-family: "dupincel-variable",sans-serif;
+  font-weight: var(--height);
+  /* bottom: 0.5rem; */
+  font-style: normal;
+  font-size: 2.2rem;
+  z-index: 300;
+  margin-left: 60%;
+  margin-top: -37%;
+}
+
+
+.text3 {
+  position: absolute;
+  font-family: "dupincel-variable",sans-serif;
+  font-weight: var(--height);
+  /* bottom: 0.5rem; */
+  font-style: normal;
+  font-size: 2.2rem;
+  z-index: 300;
+  margin-left: 60%;
+  margin-top: -37%;
+}
+
+.text4 {
+  position: absolute;
+  font-family: "dupincel-variable",sans-serif;
+  font-weight: var(--height);
+  /* bottom: 0.5rem; */
+  font-style: normal;
+  font-size: 2.2rem;
+  z-index: 300;
+  margin-left: 60%;
+  margin-top: -37%;
+}
+
+.text5 {
+  position: absolute;
+  font-family: "dupincel-variable",sans-serif;
+  font-weight: var(--height);
+  /* bottom: 0.5rem; */
+  font-style: normal;
+  font-size: 2.2rem;
+  z-index: 300;
+  margin-left: 60%;
+  margin-top: -37%;
+}
+
+.text6 {
+  position: absolute;
+  font-family: "dupincel-variable",sans-serif;
+  font-weight: var(--height);
+  /* bottom: 0.5rem; */
+  font-style: normal;
+  font-size: 2.2rem;
+  z-index: 300;
+  margin-left: 60%;
+  margin-top: -37%;
+}
+
+
+.text7 {
+  position: absolute;
+  font-family: "dupincel-variable",sans-serif;
+  font-weight: var(--height);
+  /* bottom: 0.5rem; */
+  font-style: normal;
+  font-size: 2.2rem;
+  z-index: 300;
+  margin-left: 60%;
+  margin-top: -37%;
+}
+
+
+.text8 {
+  position: absolute;
+  font-family: "dupincel-variable",sans-serif;
+  font-weight: var(--height);
+  /* bottom: 0.5rem; */
+  font-style: normal;
+  font-size: 2.2rem;
+  z-index: 300;
+  margin-left: 60%;
+  margin-top: -37%;
+}
+
+
+.text9 {
+  position: absolute;
+  font-family: "dupincel-variable",sans-serif;
+  font-weight: var(--height);
+  /* bottom: 0.5rem; */
+  font-style: normal;
+  font-size: 2.2rem;
+  z-index: 300;
+  margin-left: 60%;
+  margin-top: -37%;
+}
+
+
+.text10 {
+  position: absolute;
+  font-family: "dupincel-variable",sans-serif;
+  font-weight: var(--height);
+  /* bottom: 0.5rem; */
+  font-style: normal;
+  font-size: 2.2rem;
+  z-index: 300;
+  margin-left: 60%;
+  margin-top: -37%;
+}
+
+.carousel {
+  position: relative;
+  z-index: 0;
+  height: 100vh;
+  /* margin-left: 30px; */
+  /* overflow: hidden; */
+  pointer-events: none;
+}
+
+.carousel-item {
+  --items: 10;
+  --width: clamp(150px, 30vw,  300px);
+  --height: clamp(200px, 40vw,  400px);
+  --x: calc(var(--active) * 800%);
+  --y: calc(var(--active) * 200%);
+  --rot: calc(var(--active) * 120deg);
+  --opacity: calc(var(--zIndex) / var(--items) * 3 - 2);
+  overflow: hidden;
+  position: absolute;
+  z-index: var(--zIndex);
+  width: var(--width);
+  height: var(--height);
+  margin: calc(var(--height) * -0.5) 0 0 calc(var(--width) * -0.5);
+  border-radius: 10px;
+  top: 50%;
+  left: 50%;
+  user-select: none;
+  transform-origin: 0% 100%;
+  box-shadow: 0 10px 50px 10px rgba(0, 0, 0, .5);
+  background: black;
+  pointer-events: all;
+  transform:  translate(var(--x), var(--y)) rotate(var(--rot)) ;
+  transition: transform .8s cubic-bezier(0, 0.02, 0, 1);
+}
+
+  .carousel-box {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity .8s cubic-bezier(0, 0.02, 0, 1);
+    opacity: var(--opacity);
+    font-family: 'Orelo-sw-db', serif;
+  }
+    &:before {
+      content: '';
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      /* background: linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, .5)); */
+    }
+  

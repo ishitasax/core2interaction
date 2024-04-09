@@ -1,0 +1,193 @@
+:root {
+    --primary-color: #e7ddd2;
+    --secondary-color:#000000;
+    --tertiary-color: #f2ebe5; 
+  
+    --heading-one: 15rem;
+    --heading-two: 2rem;
+    --heading-three: 1.2rem;
+  
+    --width: 600px;
+    --height: 400px;
+  
+    --weight-primary: 700;
+    --weight-secondary: 200;
+  
+    --line-height: 5rem;
+  
+   }
+  
+   /* .custom-cursor {
+    cursor: url('heart.png'), auto;
+} */
+   
+   body {
+    /* margin: 0; */
+    /* overflow: hidden; */
+    background-color: var(--primary-color);
+  }
+  
+  h1 {
+    position: fixed;
+    z-index: 10;
+   font-family: "dupincel-variable",sans-serif;
+   font-size: 10rem;
+   margin-left: 40%;
+   bottom: 35%;
+  }
+  
+hr {
+  width: 80%;
+  margin-top: 60%;
+}
+
+@keyframes heartThrob {
+  0% {
+      transform: scale(1); /* Original size */
+  }
+  50% {
+      transform: scale(1.2); /* Slightly larger size */
+  }
+  100% {
+      transform: scale(1); /* Back to original size */
+  }
+}
+
+
+
+.heart {
+  z-index: 9;
+  position: fixed;
+  width: 7rem;
+  margin-left: 57%;
+  bottom: 55%;
+  /* margin-top: 38%;
+  margin-left: 24%; */
+  rotate: 25deg;
+  animation: heartThrob 2.5s infinite;
+
+}
+
+
+
+h2 {
+  position: fixed;
+  /* font-family: "area-normal", sans-serif;
+font-weight: 100;
+font-style: normal; */
+
+font-family: "dupincel-variable",sans-serif;
+margin-left: 48%;
+bottom: 43%;
+z-index: 10;
+font-style: italic;
+}
+
+
+.typewrite { color:#1d1d1d; text-decoration: none;}
+a{
+  font-size: 2rem; 
+}
+
+/* Define initial opacity for the images */
+.stamp1, .stamp3, .stamp4, .stamp5, .stamp7 {
+  opacity: 0;
+}
+
+/* Define animation for fade-in effect with different timings */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  25% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* Apply different animation durations and delays for each image */
+.stamp1 {
+  animation: fadeIn 4s ease-out forwards; /* Duration: 2s, Delay: 0s */
+  z-index: 1;
+  position: absolute;
+  width: 15%;
+  margin-left: 20%;
+  margin-top: 3%;
+}
+
+.stamp3 {
+  animation: fadeIn 3.5s ease-out forwards; /* Duration: 1.5s, Delay: 0.5s */
+  position: absolute;
+  width: 30%;
+  margin-left: 19%;
+  margin-top: 7%;
+}
+
+.stamp4 {
+  animation: fadeIn 5s ease-out forwards; /* Duration: 2.5s, Delay: 1s */
+  position: absolute;
+  width: 40%;
+  margin-left: 25%;
+  margin-top: 23%;
+  z-index: 11;
+
+}
+
+.stamp5 {
+  animation: fadeIn 3.5s ease-out forwards; /* Duration: 2s, Delay: 1.5s */
+  z-index: 12;
+  position: absolute;
+  width: 35%;
+  margin-top: 13%;
+  margin-left: 10%;
+}
+
+.stamp7 {
+  animation: fadeIn 4.5s ease-out forwards; /* Duration: 1.5s, Delay: 2s */
+  position: absolute;
+  width: 35%;
+  margin-left: 50%;
+  margin-top: 17%;
+}
+
+
+
+/* .stamp1 {
+  z-index: 1;
+  position: absolute;
+  width: 15%;
+  margin-left: 20%;
+  margin-top: 10%;
+
+}
+
+.stamp3 {
+  position: absolute;
+  width: 30%;
+  margin-left: 19%;
+  margin-top: 14%;
+
+
+}
+
+.stamp4 {
+  position: absolute;
+  width: 40%;
+  margin-left: 25%;
+  margin-top: 30%;
+  z-index: 11;
+
+}
+
+.stamp5 {
+  z-index: 12;
+  position: absolute;
+  width: 35%;
+  margin-top: 20%;
+  margin-left: 10;
+
+} */
+/* 
+.stamp7 {
+  position: absolute;
+  width: 35%;
+  margin-left: 50%;
+  margin-top: 20%;
+
+} */
