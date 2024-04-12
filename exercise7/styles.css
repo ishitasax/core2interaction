@@ -23,6 +23,7 @@ input[type="text"] {
 }
 
 input[type="button"] {
+  margin-top: 45%;
   width: 100px;
   padding: 10px;
   font-size: 16px;
