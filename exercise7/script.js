@@ -6,9 +6,9 @@ function generateAnimals(){
   console.log(myText.value);
   
   if (myText.value == "happy"){
-    document.body.style.backgroundImage= "url('https://media1.tenor.com/m/ktVXMCXL2LAAAAAd/cat-hug.gif')"
+    document.body.style.backgroundImage= "url('https://media1.tenor.com/m/jvpj_5G50tIAAAAC/yay-kitty.gif')"
   } else if (myText.value == "sad"){
-    document.body.style.backgroundImage= "url('https://media1.tenor.com/m/sWZtJv_6lOYAAAAC/hug-warm-hug.gif')"
+    document.body.style.backgroundImage= "url('https://media1.tenor.com/m/ktVXMCXL2LAAAAAd/cat-hug.gif')"
   } else{
     document.body.style.backgroundImage= "url('https://media1.tenor.com/m/5i3L0LsTDrYAAAAd/angry-angry-cat.gif')"
   }
