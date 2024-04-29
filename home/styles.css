@@ -57,6 +57,8 @@ body {
     align-items: center;
     flex-wrap: wrap;
     margin-top: 40%;
+    max-width: 60;
+    margin-left: 2%;
    }
 
 
