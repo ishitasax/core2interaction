@@ -1,0 +1,90 @@
+/* design system */
+
+:root {
+  --primary-color: #f9f7f6;
+  --secondary-color: #000000;
+  --tertiary-color: beige; 
+
+  --heading-one: 7rem;
+  --heading-two: 2rem;
+  --heading-three: 1.2rem;
+
+  --width: 600px;
+  --height: 400px;
+
+  --weight-primary: 600;
+  --weight-secondary: 200;
+
+  --line-height: 5rem;
+
+ }
+
+body {
+    /* margin: 0; */
+    /* overflow: hidden; */
+    background-color: var(--primary-color);
+  }
+  
+  h1 {
+    position: absolute;
+    font-family: "forma-djr-display", sans-serif;
+    font-weight: var(--weight-primary);
+    font-size: var(--heading-one);    
+    margin-left: 110px;
+    bottom: 480px;
+    line-height: var(--line-height);
+  }
+  
+  h2 {
+    position: absolute;
+    color: #000000;
+    font-family: "quasimoda", sans-serif;
+    font-weight: var(--weight-secondary);
+    font-size: var(--heading-three);
+    margin-left: 110px;
+    bottom: 450px;
+  } 
+
+
+  /* Projects */
+
+  .work {
+    display: flex;
+    gap: 70px;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40%;
+   }
+
+
+/* text  */
+
+.heading, p {
+  margin: 0;
+}
+
+.project-text {
+    color: #000000;
+    font-family: "quasimoda", sans-serif;
+    font-weight: 200;
+    font-size: var(--heading-two); 
+}
+
+a {
+  color: #000000;
+    font-family: "quasimoda", sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem; 
+    text-decoration: none;
+}
+
+.subheading {
+  color: #000000;
+  font-family: "quasimoda", sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+}
+
+
