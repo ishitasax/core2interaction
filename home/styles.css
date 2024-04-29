@@ -22,7 +22,7 @@
 body {
     /* margin: 0; */
     /* overflow: hidden; */
-    background-color: var(--primary-color);
+    background-color:  rgb(6, 87, 95);
   }
   
   h1 {
@@ -33,11 +33,12 @@ body {
     margin-left: 110px;
     bottom: 480px;
     line-height: var(--line-height);
+    color: rgb(255, 133, 133);
   }
   
   h2 {
     position: absolute;
-    color: #000000;
+    color: #ffffff;
     font-family: "quasimoda", sans-serif;
     font-weight: var(--weight-secondary);
     font-size: var(--heading-three);
@@ -66,22 +67,22 @@ body {
 }
 
 .project-text {
-    color: #000000;
+  color: #ffffff;
     font-family: "quasimoda", sans-serif;
     font-weight: 200;
     font-size: var(--heading-two); 
 }
 
 a {
-  color: #000000;
+  color: rgb(255, 133, 133);
     font-family: "quasimoda", sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1.5rem; 
     text-decoration: none;
 }
 
 .subheading {
-  color: #000000;
+  color: #ffffff;
   font-family: "quasimoda", sans-serif;
   font-weight: 200;
   font-size: 1rem;
