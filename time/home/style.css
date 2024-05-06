@@ -1,0 +1,138 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+h1 {
+    /* display: block; */
+    color: white;
+    font-family: "dreaming-outloud-scriptslant", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+
+
+   
+    margin-top: 12%;
+    margin-left: 4%;
+    transition: transform 0.8s ease; /* Add smooth transition */
+}
+
+@keyframes wiggle {
+    0% { transform: rotateZ(0); }
+    25% { transform: rotateZ(-5deg); }
+    50% { transform: rotateZ(5deg); }
+    75% { transform: rotateZ(-5deg); }
+    100% { transform: rotateZ(0); }
+}
+
+h1:hover {
+    animation: wiggle 0.8s ease infinite;
+}
+
+.time {
+    z-index: 1000;
+    color: white;
+    font-family: "dreaming-outloud-scriptslant", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+
+    position: fixed;
+    top: 2%;
+    left: 80%;
+}
+
+
+@keyframes wiggle {
+    0% { transform: rotateZ(0); }
+    25% { transform: rotateZ(-5deg); }
+    50% { transform: rotateZ(5deg); }
+    75% { transform: rotateZ(-5deg); }
+    100% { transform: rotateZ(0); }
+}
+
+.time:hover {
+    animation: wiggle 1s ease infinite;
+    /* color:  rgb(208, 204, 190); */
+    /* scale: 0.9;  */
+}
+
+.about {
+    color: white;
+    font-family: "dreaming-outloud-scriptslant", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+
+    position: fixed;
+    top: 2%;
+    left: 90%;
+}
+
+@keyframes wiggle {
+    0% { transform: rotateZ(0); }
+    25% { transform: rotateZ(-5deg); }
+    50% { transform: rotateZ(5deg); }
+    75% { transform: rotateZ(-5deg); }
+    100% { transform: rotateZ(0); }
+}
+
+.about:hover {
+    animation: wiggle 1s ease infinite;
+    /* color:  rgb(208, 204, 190); */
+    /* scale: 0.9;  */
+}
+
+
+.slinky1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+max-width: 60%;
+max-height: 30%;
+}
+
+
+@keyframes pulse {
+    0% {
+      transform: scale(0.8);
+    }
+    50% {
+      transform: scale(0.5);
+    }
+    100% {
+      transform: scale(0.8);
+    }
+  }
+
+  .slinky1 {
+    animation: pulse 1s infinite;
+  }
+  
+
+  .slinky2 {
+    display: block;
+   top: auto;
+   left: auto;
+max-width: 30%;
+max-height: 20%;
+}
+
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.8);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .slinky2 {
+    z-index: 2000;
+    animation: pulse 1s infinite;
+  }
+  
