@@ -15,10 +15,11 @@ z-index: 3000;
 /* left: 4%; */
     transition: transform 0.8s ease; /* Add smooth transition */
     top: 2%;
-    left: 10%
+    left: 5%
 
 }
-/* @keyframes wiggle {
+
+@keyframes wiggle {
     0% { transform: rotateZ(0); }
     25% { transform: rotateZ(-5deg); }
     50% { transform: rotateZ(5deg); }
@@ -28,7 +29,7 @@ z-index: 3000;
 
 h1:hover {
     animation: wiggle 0.8s ease infinite;
-} */
+}
 
 .time {
     z-index: 1000;
@@ -246,13 +247,47 @@ max-height: 20%;
     }
   }
   
-  .star path{
+
+  .star1 path{
+   position: relative;
+   top: 10%;
+   left: 10%;
     fill: none;
-    stroke-width: 1.5;
+    stroke-width: 2;
     animation: moveSwiggly 60s linear infinite; /* Move swiggly lines */
   }
   
-  .star path {
+  .star1 path {
     animation: changeGradient 60s linear infinite; /* Change gradient every minute */
   }
+  
+
+  /* .star2 path{
+    fill: none;
+    stroke-width: 2
+  }
+  
+  .star2 path {
+    animation: changeGradient 60s linear infinite;
+  }
+
+  .star3 path{
+    fill: none;
+    stroke-width: 2;
+    animation: moveSwiggly 60s linear infinite; 
+  }
+  
+  .star3 path {
+    animation: changeGradient 60s linear infinite; 
+  }
+
+  .star4 path{
+    fill: none;
+    stroke-width: 2;
+    animation: moveSwiggly 60s linear infinite; 
+  }
+  
+  .star4 path {
+    animation: changeGradient 60s linear infinite; 
+  } */
   
