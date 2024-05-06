@@ -5,6 +5,7 @@ body {
 
 h1 {
     /* display: block; */
+    position: fixed;
     color: white;
     font-family: "dreaming-outloud-scriptslant", sans-serif;
     font-weight: 400;
@@ -13,8 +14,10 @@ h1 {
 z-index: 3000;
 /* left: 4%; */
     transition: transform 0.8s ease; /* Add smooth transition */
-}
+    top: 2%;
+    left: 10%
 
+}
 /* @keyframes wiggle {
     0% { transform: rotateZ(0); }
     25% { transform: rotateZ(-5deg); }
@@ -213,5 +216,43 @@ max-height: 20%;
   .slinky5 {
     z-index: 2000;
     animation: pulse 1s infinite;
+  }
+  
+  @keyframes moveSwiggly {
+    0% {
+      transform: translateX(-100px);
+    }
+    100% {
+      transform: translateX(100px);
+    }
+  }
+  
+  @keyframes changeGradient {
+    0% {
+      stroke: #ff4daf; /* Red */
+    }
+    20% {
+      stroke: #f97126; /* Orange */
+    }
+    50% {
+      stroke: #ffb000; /* Yellow */
+    }
+    80% {
+      stroke: #f97126; /* Green */
+    }
+    
+    100% {
+      stroke: #ff4daf; /* Back to Red */
+    }
+  }
+  
+  .star path{
+    fill: none;
+    stroke-width: 1.5;
+    animation: moveSwiggly 60s linear infinite; /* Move swiggly lines */
+  }
+  
+  .star path {
+    animation: changeGradient 60s linear infinite; /* Change gradient every minute */
   }
   
