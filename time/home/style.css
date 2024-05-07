@@ -55,6 +55,7 @@ h1:hover {
 
 .time:hover {
     animation: wiggle 1s ease infinite;
+    color:  rgb(255, 200, 0);
     /* color:  rgb(208, 204, 190); */
     /* scale: 0.9;  */
 }
@@ -81,6 +82,7 @@ h1:hover {
 
 .about:hover {
     animation: wiggle 1s ease infinite;
+    color:  rgb(255, 200, 0);
     /* color:  rgb(208, 204, 190); */
     /* scale: 0.9;  */
 }
@@ -254,12 +256,17 @@ max-height: 20%;
    left: 10%;
     fill: none;
     stroke-width: 2;
-    animation: moveSwiggly 60s linear infinite; /* Move swiggly lines */
+    /* animation: moveSwiggly 60s linear infinite;  */
+    
   }
   
   .star1 path {
     animation: changeGradient 60s linear infinite; /* Change gradient every minute */
+    
   }
+  
+ 
+  
   
 
   /* .star2 path{
