@@ -1,0 +1,36 @@
+body {
+  background-color: #F5F5DC;
+}
+
+svg { 
+  width: 40%;
+margin-top: 12%;
+margin-left: 31%;
+}
+
+
+#container {
+position: absolute;
+top: 45%;
+left: 40%;
+text-align: center;
+
+}
+
+#date {
+font-family: "owners", sans-serif;
+font-weight: 500;
+font-style: normal;
+color: #000000;
+font-size: 2rem;
+}
+
+
+#clock {
+font-family: "owners", sans-serif;
+font-weight: 500;
+font-style: normal;
+color: #000000;
+font-size: 8rem;
+}
+
