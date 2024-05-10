@@ -25,6 +25,10 @@ body {
     cursor: url('cursor.png'), auto;
     background-color:  rgb(236, 245, 220);
   }
+
+  a,button{
+    cursor: url("cursor.png"), auto;
+   }
 /*   
   h1 {
     position: absolute;
